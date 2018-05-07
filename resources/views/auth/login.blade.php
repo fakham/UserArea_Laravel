@@ -19,7 +19,7 @@
 
                                 @if ($errors->has('username'))
                                     <span class="invalid-feedback">
-                                        <strong>{{ $errors->first('username') }}</strong>
+                                        <strong>{{ $errors->first('username') }} </strong>
                                     </span>
                                 @endif
                             </div>
